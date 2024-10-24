@@ -19,6 +19,9 @@ Wij hebben de opdracht gekregen om de huidige live bieb-in-bloei website te opti
 ## Kenmerken
 Dit project is opgezet met Sveltekit en met de headless CMS Hygraph. In dit project hebben gewerkt met componenten in Sveltekit.
 
+Mijn focus lag op het maken van een volledig toegankelijk toegankelijkheidsmenu die op elke browser(versie) en zonder Javascript gebruikt kan worden door iedereen. Het menu is dan ook volledig gemaakt met basic CSS en semantische HTML. Verder heb ik aandacht besteed aan `aria-attributes`, tabbaarheid van het menu, screenreaders en contrast.
+
+
 ## Installatie
 1. Clone dit project
 2. Open dit project in je editor
