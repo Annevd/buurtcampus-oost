@@ -15,6 +15,12 @@
 	src: local('Poppins Regular'), local('Poppins-Regular'), url('/fonts/Poppins/Poppins-Regular.ttf');
 }
 
+@font-face {
+	font-family: 'Berosong';
+	src: url('/fonts/Berosong-Regular.ttf');
+	letter-spacing: 3px;
+}
+
 html {
 	font-family: 'Mulish', sans-serif;
 	line-height: 1.5;
@@ -27,13 +33,15 @@ html {
 }
 
 :root {
+	--background-color: #141414;
+
 	--main-color-green: #4e7141;
-	--main-color-beige: #f9e9c2;
+	--main-color-beige: #1E1B1F;
 	--main-color-orange: #ff8d06;
 	--main-color-brown: #491b02;
 
-	--card-color-orange: #ff9a41;
-	--card-color-green: #3c593e;
+	--card-color-orange: #27522C;
+	--card-color-green: #900002;
 
 	--text-color-white: #fff;
 	--text-color-black: #000;
@@ -42,19 +50,32 @@ html {
 	--input-border-color: #B37400;
 	--input-border-shadow: 0px 2px 4px hsl(32 37% 39% / 1);    
 
-	--header-font: 'Poppins-Black', sans-serif;
-	--sub-header-font: 'Poppins-Bold', sans-serif;
+	--header-font: 'Berosong', sans-serif;
+	--sub-header-font: 'Berosong', sans-serif;
 	--paragraph-font: 'Poppins-Medium', sans-serif;
 	--link-font: 'Poppins-Regular', sans-serif;
 
 	--border-bigCard: 2em;
 	--border-card: 1.0625em;
 
-	--image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+	--image-gradient: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(0 0 0 / 31%) 100%);
 }
 
 html {
 	overflow-x: hidden;
+	background: var(--background-color) ;
+}
+
+body::after {
+	content:"";
+	position: fixed;
+	inset: 0;
+	background-image: url(/assets/noise.jpg);
+	background-repeat: no-repeat;
+	mix-blend-mode: multiply;
+	pointer-events: none;
+	z-index: 99;	
+	opacity: 60%;
 }
 
 .btn-gevel {
@@ -67,7 +88,7 @@ html {
 	}
   
 	100% {
-	  transform: translateX(-164vw);
+	  transform: translateX(-150vw);
 	}
   }
 

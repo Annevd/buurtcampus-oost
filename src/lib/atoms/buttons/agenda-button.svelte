@@ -19,7 +19,7 @@
 	a {
 		--color-accent: var(--accent, --main-color-green);
 		--color-text: var(--text, --main-color-beige);
-		background: var(--color-accent);
+		background: #fff;
 		color: var(--color-text);
 		display: flex;
 		justify-content: center;

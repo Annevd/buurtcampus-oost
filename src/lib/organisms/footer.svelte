@@ -76,7 +76,7 @@
 		align-items: top;
 		width: 90%;
 		justify-content: space-evenly;
-		color: var(--main-color-green);
+		color: #fff;
 		z-index: 1;
 	}
     ul { 
@@ -85,6 +85,11 @@
 	li {
 		list-style-type: none;
 	}
+
+	li:first-of-type {
+		font-family: var(--sub-header-font);
+	}
+	
 	.title {
 		font-size: 2em;
 		margin-bottom: 1rem;

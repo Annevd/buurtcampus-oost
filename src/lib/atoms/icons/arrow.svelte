@@ -18,11 +18,19 @@
         --svg-fill: var(--main-color-beige);
     }
 
+	.svg-orange {
+		--svg-fill: var(--main-color-orange);
+	}
+
 	.svg-beige:hover, .svg-green:hover{
         --svg-fill: var(--main-color-orange);
     }
 	.svg-green{
         --svg-fill: var(--main-color-green);
     }
+
+	.svg-red {
+		--svg-fill: var(--card-color-green);
+	}
 
 </style>

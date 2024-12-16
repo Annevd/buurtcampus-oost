@@ -42,7 +42,7 @@
 		--color-text: var(--main-color-beige);
 	}
 	.btn-beige {
-		--color-accent: var(--main-color-beige);
+		--color-accent: #F9E9C2;
 		--color-text: var(--card-color-green);
 	}
 
@@ -50,6 +50,7 @@
 		--color-accent: var(--main-color-beige);
 		--color-text: var(--card-color-green);
 	}
+	
 
 	/* button hover */
 	a:hover {

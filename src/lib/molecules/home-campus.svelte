@@ -21,7 +21,7 @@
 		justify-content: center;
 		flex-direction: column;
 		align-items: start;
-		color: var(--card-color-green);
+		color: #fff;
 	}
 
 	h2 {
@@ -34,7 +34,7 @@
 		padding-bottom: 0.7em;
 	}
 	h2 span:nth-of-type(2) {
-		color: var(--main-color-orange);
+		color: var(--card-color-green);
 	}
 	p {
 		padding: 0.3em;

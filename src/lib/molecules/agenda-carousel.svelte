@@ -122,7 +122,7 @@
 		padding: 0.5em;
 		border-top-left-radius: 0.8em;
 		border-bottom-left-radius: 0.8em;
-		background-color: var(--main-color-brown);
+		background-color: var(--card-color-green);
 		padding: 1em;
 		display: flex;
 		flex-direction: column;
@@ -167,7 +167,7 @@
 			display: block;
 			cursor: pointer;
 			border-radius: 50%;
-			background-color: var(--main-color-brown);
+			background-color: var(--card-color-green);
 		}
 
 		button:hover {

@@ -21,7 +21,7 @@
                 btnClass="btn-green"
                 href="/stekjes"
                 buttonText="Bekijk de stekjes"
-                svgFill="svg-beige"
+                svgFill="svg-orange"
             />
         </div>
     </article>
@@ -62,10 +62,10 @@
         </div>
         <div class="btn-container">
             <Button 
-                btnClass="btn-brown"
+                btnClass="btn-beige"
                 href="/zaden"
                 buttonText="Bekijk de zaden"
-                svgFill="svg-beige"
+                svgFill="svg-red"
             />
         </div>
     </article>
@@ -122,15 +122,15 @@
     }
     .card-stekjes{
         background-color: var(--main-color-beige);
-        color: var(--main-color-green);
+        color: #fff;
     }
     .card-zaden{
         background-color: var(--card-color-orange);
-        color: var(--main-color-brown);
+        color: #F9E9C2;
     }
     .card-gevel{
         background-color: var(--card-color-green);
-        color: var(--main-color-beige);
+        color: #fff;
     }
     .paragraph-card{
         margin: 0 3.5em;

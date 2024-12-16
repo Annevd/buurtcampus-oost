@@ -32,7 +32,7 @@
 		font-size: 3.5rem;
 		padding-bottom: 0.7em;
 		font-family: var(--sub-header-font);
-		color: var(--main-color-brown);
+		color: #fff;
 		align-self: baseline;
 		z-index: 3;
 	}

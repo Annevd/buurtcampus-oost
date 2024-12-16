@@ -23,8 +23,8 @@
         justify-content: center;
         flex-direction: column;
         align-items: start;
-        background-color: var(--card-color-green);
-        color: var(--main-color-beige);
+        background-color: var(--card-color-orange);
+        color: #F9E9C2;
         overflow: hidden;
         position: relative;
     }

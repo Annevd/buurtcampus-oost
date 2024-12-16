@@ -49,7 +49,7 @@
 		cursor: pointer;
 		margin-bottom: 1em;
 		border-radius: 50%;
-		background-color: var(--main-color-brown);
+		background-color: var(--card-color-green);
 	}
 
 	button:hover {
