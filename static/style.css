@@ -53,14 +53,23 @@ html {
 	--image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-/* overflow?
 html {
 	overflow-x: hidden;
-} */
+}
 
 .btn-gevel {
 	outline: 1px solid red;
 }
+
+@keyframes move-train {
+	0% {
+	  transform: translateX(0);
+	}
+  
+	100% {
+	  transform: translateX(-164vw);
+	}
+  }
 
 /* View transition animation */
 @keyframes fade-in {
