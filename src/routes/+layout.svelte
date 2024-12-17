@@ -1,9 +1,12 @@
 <script>
 	export let data;
-	import { Navigation, AccessibilityMenu, Menu, Footer } from '$lib/index.js';
+	import {Snow, Navigation, AccessibilityMenu, Menu, Footer } from '$lib';
+
 </script>
 
 <Navigation />
+
+<Snow count={4000} />
 
 <div class="train">
 	<div class="engine-front">
