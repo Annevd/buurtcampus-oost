@@ -76,6 +76,7 @@
 		width: 100%;
 		height: 85vh;
 		background: var(--image-gradient);
+		pointer-events: none;
 	}
 	header {
 		position: absolute;
@@ -94,6 +95,7 @@
 		font-weight: 900;
 		line-height: 1.1em;
 		width: 60%;
+		z-index: 10;
 	}
 	h2 {
 		view-transition-name: h2;
@@ -103,6 +105,7 @@
 		line-height: 1.1em;
 		padding: 0.5em 0;
 		margin: 0;
+		z-index: 10;
 	}
 	.hero-img-list img {
 		width: 100%;

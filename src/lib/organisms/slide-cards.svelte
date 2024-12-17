@@ -84,6 +84,7 @@
         bottom: 3em;
         margin: 0 auto;
         border-radius: var(--border-bigCard);
+        z-index: 1;
     }
     .card-container, article{
         width: 100vw;

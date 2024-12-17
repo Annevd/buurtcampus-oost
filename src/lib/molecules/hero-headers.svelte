@@ -16,6 +16,7 @@
         width: 100%;
         height: 50vh;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.67) 0%, rgba(0, 0, 0, 0.1) 100%);
+        pointer-events: none;
     } 
     header{
         display: flex;
@@ -28,6 +29,7 @@
         position: absolute;
         color: var(--text-color-white);
         font-size: clamp(4em, 15vw, 5em);
+        z-index: 10;
     }
     img{
         width: 100%;
