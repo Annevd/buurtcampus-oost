@@ -11,11 +11,6 @@ export async function load() {
 					url
 				}
 			}
-			partnersIntros {
-				createdAt
-				id
-				description
-			}
 			partners {
 				createdAt
 				id
