@@ -31,14 +31,15 @@
 
 
     section::before{
-        content: url(/assets/leaf-light-green.svg);
+        content: url(/assets/mistletoe.png);
         width: 30em;
         height: 30em;
         position: absolute;
-        right: -8em;
+        right: -3em;
         transform: rotate(-45deg);
-        opacity: .2;
+        opacity: 75%;
         overflow: hidden;
+        mix-blend-mode: hard-light;
     }
 
     h2{

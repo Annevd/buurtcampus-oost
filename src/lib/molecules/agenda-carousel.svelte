@@ -127,7 +127,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		color: var(--main-color-beige);
+		color: #fff;
 	}
 
 	img {

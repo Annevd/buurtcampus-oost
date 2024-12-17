@@ -7,10 +7,10 @@
 <footer>
 	<section class="background">
 		<div class="right-svg">
-			<LeafRight />
+			<img src="assets/mistletoe.png" alt="">
 		</div>
 		<div class="left-svg">
-			<LeafLeft />
+			<img src="assets/mistletoe.png" alt="">
 		</div>
 	</section>
 	<section class="information">
@@ -60,17 +60,24 @@
 		z-index: 0;
 		opacity: .3;
 		transition: .6s;
+		scale: 1.5;
+		mix-blend-mode: hard-light;
 	}
 	.right-svg {
-		background-image: url(/assets/right-footer-leaf.svg);
-		top: 0;
-		right: -20%;
+		/* background-image: url(/assets/right-footer-leaf.svg); */
+		top: 11rem;
+		right: 0;
 	}
 	.left-svg {
-		background-image: url(/assets/left-footer-leaf.svg);
-		top: 20%;
-		left: -20%;
+		/* background-image: url(/assets/left-footer-leaf.svg); */
+		top: 11rem;
+		left: 0;
 	}
+
+	.left-svg img {
+		transform: scaleX(-1);
+	}
+
 	.information {
 		display: flex;
 		align-items: top;

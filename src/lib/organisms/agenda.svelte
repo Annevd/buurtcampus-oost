@@ -5,7 +5,7 @@
 </script>
 
 <section>
-	<img src="./assets/leaf-orange.svg" alt="" height="800" width="800" />
+	<img src="./assets/mistletoe.png" alt="" height="800" width="800" />
 	<h2>Agenda</h2>
 	<AgendaInfoButton />
 	<AgendaCarousel {data} />
@@ -18,14 +18,20 @@
 		max-width: 100%;
 		overflow: hidden;
 		padding: 4rem 0 4rem 1rem;
+		position: relative;
 	}
 
 	img {
 		display: none;
 		position: absolute;
-		rotate: 120deg;
-		left: 0;
-		transform: translateY(200px) translateX(150px);
+		rotate: 85deg;
+		/* left: 6rem;
+		bottom: 3rem; */
+		transform: rotateZ(180deg) scale(0.5);
+		right: -15rem;
+		top: -14rem;
+		mix-blend-mode: hard-light;
+		opacity: 75%;
 	}
 
 	h2 {
@@ -34,7 +40,7 @@
 		font-family: var(--sub-header-font);
 		color: #fff;
 		align-self: baseline;
-		z-index: 3;
+		z-index: 10;
 	}
 
 	/* MEDIA QUERY TABLET = 768px */

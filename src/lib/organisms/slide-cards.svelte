@@ -80,7 +80,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
+        /* position: relative; */
         bottom: 3em;
         margin: 0 auto;
         border-radius: var(--border-bigCard);
@@ -88,6 +88,7 @@
     }
     .card-container, article{
         width: 100vw;
+        position: relative;
         overflow: hidden;
     }
     .card-container article{
@@ -98,15 +99,18 @@
         width: 20em;
         height: 20em;
         position: absolute;
+        left: -10rem;
         z-index: 0;
-        left: -4em;
-        transform: rotate(135deg);
+        top: 2rem;
+        opacity: 75%;
+        transform: rotate(332deg);
+        mix-blend-mode: hard-light;
     }
     .card-stekjes::before, .card-zaden::before{
-        content: url(/assets/leaf-orange.svg);
+        content: url(/assets/mistletoe.png);
     }
     .card-gevel::before{
-        content: url(/assets/leaf-green.svg);
+        content: url(/assets/mistletoe.png);
     }
     .header-card, picture, .paragraph-card, .btn-container{
         z-index: 2;
@@ -246,8 +250,8 @@
     /* MEDIA QUERY TABLET = 1250px */
     @media (min-width: 78.1rem) {
         .card-stekjes::before, .card-zaden::before, .card-gevel::before{
-            width: 26em;
-            height: 26em;
+            width: 21em;
+            height: 21em;
         }
         h2{
             font-size: 7em;
