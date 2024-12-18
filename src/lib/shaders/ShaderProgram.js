@@ -412,6 +412,7 @@ export class ShaderProgram {
 
   update() {
     const gl = this.gl
+    console.log('webgee-eell')
 
     const now = performance.now()
     const elapsed = (now - this.time.start) / 5000
