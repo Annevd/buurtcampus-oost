@@ -112,7 +112,7 @@
         transform-origin: center;
     }
 }
-.harry[data-mood="boos"]{
+.harry[data-mood="boos"]{ 
     .sip {
             opacity: 1;
     }

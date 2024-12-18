@@ -60,12 +60,16 @@
 
 {#if weather}
 <aside>
-    <div class="weather-bubble">
-        <blockquote>
-            “{sentence}<span class="home_page"> {detail}</span>”
-        </blockquote>
+    <input type="checkbox" class="harry-toggle"/>
+
+    <div class="test">
+        <div class="weather-bubble">
+            <blockquote>
+                “{sentence}<span class="home_page"> {detail}</span>”
+            </blockquote>
+        </div>
+        <Harry {mood} {environment} {textTemp}/>
     </div>
-    <Harry {mood} {environment} {textTemp}/>
 </aside>
 
 {/if}

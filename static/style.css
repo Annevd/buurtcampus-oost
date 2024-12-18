@@ -53,10 +53,10 @@ html {
 	--image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-/* overflow?
+/* overflow? --> a: I.V.M. met harry die anders de pagina uitrekt*/
 html {
 	overflow-x: hidden;
-} */
+}
 
 .btn-gevel {
 	outline: 1px solid red;

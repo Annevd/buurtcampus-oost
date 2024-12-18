@@ -6,7 +6,6 @@
     z-index: 0;
     display: flex;
     flex-direction: row;
-    animation: appearStekje 300ms ease-out 800ms forwards;
 }
 
 .stekjes_detail .cartoon{
@@ -18,6 +17,7 @@
 .stekjes_detail .weather-bubble {
     display: flex;
     min-height: 4rem;
+    max-height: fit-content;
     align-items: center;
     justify-content: center;
 }
@@ -43,6 +43,7 @@ aside {
     right: 0;
     color: black;
     z-index: 999;
+    top: 6rem;
 }
 
 .weather-bubble {
@@ -55,7 +56,6 @@ aside {
     filter: drop-shadow(1px 0px 2px rgb(0 0 0 / .25));
     opacity: 0; 
     transform: scale(0.5);
-    animation: popUp 0.5s ease forwards;
     animation-delay: 1400ms; 
     text-align: center;
 }
@@ -93,6 +93,63 @@ aside {
     display: none;    
 }
 
+.hero-slider .cartoon{
+    width: 10rem;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+    position: absolute;
+    rotate: -40deg;
+    right: -9rem;
+}
+
+/* @media (min-width: 48rem) { */
+    .hero-slider .cartoon {
+        animation: appear 300ms ease-in-out 800ms forwards;
+    }
+    .stekjes_detail aside .harry {
+        animation: appearStekje 300ms ease-in-out 800ms forwards;
+        z-index: 1000;
+        rotate: 0deg;
+        position: relative;
+        padding-top: 10rem;
+    }
+    .weather-bubble {
+        animation: popUp 0.5s 1200ms ease forwards;
+    }
+/* } */
+
+input.harry-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400%;
+    background: transparent; 
+    border: none;
+    opacity: 0; 
+    cursor: pointer; 
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.harry-toggle:checked ~ .test {
+    display: none;
+}
+
+.test {
+    display: flex;    
+}
+
+.stekjes_detail {
+    height: 34vh;
+}
+
+@media (min-width: 48rem) {
+    aside {
+        top: 50%;
+        
+    }
+}
+
 @keyframes popUp {
     0% {
         opacity: 0;
@@ -102,15 +159,6 @@ aside {
         opacity: 1;
         transform: scale(1);
     }
-}
-
-.hero-slider .cartoon{
-    width: 10rem;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
-    position: absolute;
-    rotate: -40deg;
-    right: -9rem;
-    animation: appear 300ms ease-in-out 800ms forwards;
 }
 
 @keyframes appear {
@@ -126,9 +174,9 @@ aside {
 
 @keyframes appearStekje {
     0% {
-        bottom: -10rem;
+        padding-top: 10rem;
     }
     100% {
-        bottom: 0.5rem;
+        padding-top: 0rem;
     }
 }
