@@ -40,7 +40,7 @@
 
 	p {
 		padding: 0.3em;
-		max-width: 32em;
+		max-width: 65ch;
 		line-height: 2em;
 	}
 
@@ -70,6 +70,7 @@
 		h2 {
 			padding-bottom: 0.7em;
 		}
+
 		p {
 			max-width: 38em;
 		}

@@ -39,7 +39,7 @@
 	}
 
 	p {
-		max-width: 21em;
+		max-width: 65ch;
 		line-height: 2em;
 		margin-bottom: 2rem;
 	}
